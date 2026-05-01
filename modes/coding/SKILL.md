@@ -22,7 +22,8 @@ Loop:
 5. Make sure all tests pass
 6. Add all changed files to the repo using `git add` then `git commit` with a good title and body
 7. Update `issues.md` with the progress
-
+8. After commit + tests pass + issues.md update, automatically start next unchecked issue.
+ - If blocked, go with your best recommendation, then resume auto-loop.
 
 Rules:
 - After each issue run explicitly add changed files with `git add`
@@ -30,4 +31,3 @@ Rules:
 - Commit message should have a good title and description
 - No status reply until commit hash shown.
 - `git status --porcelain` must be empty in changed repos.
-- Immediately pick next issue if it exists
