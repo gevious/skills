@@ -15,14 +15,15 @@ Exit condition:
 - Push the code in every repo
 
 Loop:
-1. Run `tdd` skill to complete the next issue
-2. Write code according to architecture best practices
-3. Make sure all tests pass
-4. Run `architecture` skill and fix the top issue
-5. Make sure all tests pass
-6. Add all changed files to the repo using `git add` then `git commit` with a good title and body
-7. Update `issues.md` with the progress
-8. After commit + tests pass + issues.md update, automatically start next unchecked issue.
+1. Pull code in repo and resolve any conflicts before writing code
+2. Run `tdd` skill to complete the next issue
+3. Write code according to architecture best practices
+4. Make sure all tests pass
+5. Run `architecture` skill and fix the top issue
+6. Make sure all tests pass
+7. Add all changed files to the repo using `git add` then `git commit` with a good title and body
+8. Update `issues.md` with the progress
+9. After commit + tests pass + issues.md update, automatically start next unchecked issue.
  - If blocked, go with your best recommendation, then resume auto-loop.
 
 Rules:
